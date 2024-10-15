@@ -13,5 +13,9 @@ public class App {
         int a = sc.nextInt();
         int b = sc.nextInt();
         System.out.println("Result: " + a * b);
+        calculateSum(a, b);
+    }
+    private static void calculateSum(int x, int y) {
+        System.out.println("Summa: " + (x + y));
     }
 }
